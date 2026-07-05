@@ -1,0 +1,40 @@
+html {
+  margin: 0;
+}
+body { 
+    transition: background 0.5s ease; /* Smooth transition */
+    min-height: 100vh;
+    margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border: solid black px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#red {
+  background: rgb(224, 49, 49);
+}
+
+#green{
+  background: rgb(8, 188, 35);
+}
+#blue {
+  background: rgb(52, 52, 224);
+}
+#yellow {
+  background: rgb(239, 220, 49);
+}
