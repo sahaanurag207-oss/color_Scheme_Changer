@@ -11,6 +11,7 @@ function setBackground(gradient) {
 document.getElementById('red').addEventListener('click', () => {
     setBackground('linear-gradient(135deg, #e4c2c2 0%, #e5866c 100%)');
 });
+
 document.getElementById('green').addEventListener('click', () => {
     setBackground('linear-gradient(135deg, #9ad4a9 0%, #70d85b 100%)');
 });
@@ -21,11 +22,14 @@ document.getElementById('blue').addEventListener('click', () => {
 
 document.getElementById('yellow').addEventListener('click', () => {
     setBackground('linear-gradient(135deg, #fdfcfb 0%, #ebdb54 100%)');
+}); // Fixed missing })
 
 document.getElementById('white').addEventListener('click', () => {
-    setBackground('#ffff');
+    // Used a flat gradient so it plays nice with standard background-image property
+    setBackground('linear-gradient(#ffffff, #ffffff)');
+});
+})
 
 document.getElementById('Black').addEventListener('click', () => {
-    setBackground('#212121');
-
-});
+    setBackground('linear-gradient(#212121, #212121)');
+}); })
