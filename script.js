@@ -21,4 +21,11 @@ document.getElementById('blue').addEventListener('click', () => {
 
 document.getElementById('yellow').addEventListener('click', () => {
     setBackground('linear-gradient(135deg, #fdfcfb 0%, #ebdb54 100%)');
+
+document.getElementById('white').addEventListener('click', () => {
+    setBackground('#ffff');
+
+document.getElementById('Black').addEventListener('click', () => {
+    setBackground('#212121');
+
 });
